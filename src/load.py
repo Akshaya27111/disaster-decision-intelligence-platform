@@ -5,7 +5,7 @@ from sqlalchemy import create_engine
 # Database Connection
 # -----------------------
 
-DATABASE_URL = "postgresql://postgres:aks%40123@localhost:5432/disaster_decision_intelligence"
+DATABASE_URL = "postgresql://postgres:aks%40123@postgres:5432/disaster_decision_intelligence"
 
 engine = create_engine(DATABASE_URL)
 
